@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EPPlus" Version="5.8.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GadgetsVN.Common\GadgetsVN.Common.csproj" />
+    <ProjectReference Include="..\GadgetsVN.Data\GadgetsVN.Data.csproj" />
+  </ItemGroup>
+
+</Project>
